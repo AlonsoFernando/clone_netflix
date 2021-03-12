@@ -1,0 +1,100 @@
+:root {
+  --violeta: #120116;
+  --vermelha: #f30808;
+  --branca: #fdfbfb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Base*/
+
+body {
+  background: var(--violeta);
+  color: white;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelha);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--branca);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-right: 50px;
+}
+
+/*Principal*/
+
+.principal{
+  padding-top: 100px;
+  font-size: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)100%), url('../img/capa.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.titulo{
+  font-family: cursive;
+  text-decoration: underline;
+  font-size: 40px;
+  color: rgb(194, 236, 111);
+}
+
+.descricao{
+  margin-top: 10px;
+  width: 55%;
+}
+
+.botao{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: rgba(0,0,0,.70);
+  color: white;
+  padding: 15px 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .6s ease all;
+}
+
+.botao i{
+  margin-right: 10px;
+}
+
+.botao:hover{
+  background-color: rgb(194, 236, 111);
+  color: black;
+}
+
+.container{
+  margin-left: 30px;
+}
+
+.box-fachada{
+  height: 300px;
+  width: 100%;
+  display: block;
+}
+
+.carrossel{
+  margin-top: 5px;
+}

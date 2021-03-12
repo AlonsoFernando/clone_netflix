@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    header .logo{
+        font-size: 20px;
+    }
+
+    header nav a{
+        margin-right: 2px;
+        font-size: 13px;
+    }
+
+    main .principal{
+        padding-top: 110px;
+    }
+
+    main .container .titulo{
+        font-size: 20px;
+    }
+
+    main .container .descricao{
+        font-size: 70%;
+        width: 90%;
+    }
+
+    .botao{
+        width: 85%;
+        margin-top: 40px;
+        font-size: 80%;
+    }
+}
